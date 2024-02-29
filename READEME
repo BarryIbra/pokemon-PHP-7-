@@ -1,0 +1,20 @@
+le projet est structure selon une architecture MVC object
+
+           Dans le dossier modele se trouve trois fichiers:
+           
+-modele.php:qui contitient la classe modele pemettant l'accet a la base de donnée et fournis les methode pour l'excution de l'ensembre de requetes
+-pokemon.php: qui s'occupe des donnée liées à la table pokemon
+-typepokemon.php: qui s'occupe des donnée liées à la table typepokemon
+
+ Dans le dossier Vue se trouve l'ensemble de vue de notre page et le gabarit
+ ainsi que classe Vue dans le fichiers vue.php qui s'occupe de generer les differente vue grace à sa methode (generer)
+ 
+ Dans le dossier Controleur:
+ Nous avons:
+ -test.php: qui s'occupe du traitement des donnée liée à la page test
+ -modifier.php: pour le traitement des donnée de la page Modifier pokemon
+ -routeur.php: qui link entre les differente vue selon l'action et les donnée reçu
+ -donnehistorique.php: qui permet de generer tout les donnes liée à la page historique
+ 
+ -la page tableauDepokemon.php genere les données requetée par la page fichier pokemon.js
+        
